@@ -39,7 +39,8 @@ h1,h2,h3,h4,a{
 }
 .navbar{
   background: #376C4D;
-  min-height: 84px;
+  height: 84px;
+  
 }
 
 h1{
@@ -197,6 +198,10 @@ footer ul li a{
     display: flex;
     flex-direction: column;
     padding: 10px;
+  }
+  .navbar{
+    height: unset;
+    min-height: 84px;
   }
   .navbar li{
     margin-right: 0;
